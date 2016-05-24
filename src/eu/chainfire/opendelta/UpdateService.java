@@ -887,9 +887,11 @@ OnWantUpdateCheckListener, OnSharedPreferenceChangeListener {
                 }
             }
             if (latestBuild != null) {
+            	Logger.d("LatestBuild: %s", latestBuild);
                 return latestBuild;
             }
         } catch (Exception e) {
+        	 Logger.ex(e);
         }
         updateState(STATE_ERROR_UNOFFICIAL, null, null, null, config.getVersion(), null);
         return null;

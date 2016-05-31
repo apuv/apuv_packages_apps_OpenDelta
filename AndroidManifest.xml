@@ -31,8 +31,7 @@
 			android:name="eu.chainfire.opendelta.MainActivity"
 			android:label="@string/title"
 			android:launchMode="singleInstance"
-			android:theme="@style/Theme.OpenDelta" 
-			android:excludeFromRecents="true" >
+			android:theme="@style/Theme.OpenDelta" >
         		<intent-filter android:priority="2147483647" >
 				<!--
 				Show up under Settings, About Device, System Updates.

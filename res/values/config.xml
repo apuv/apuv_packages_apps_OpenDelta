@@ -55,7 +55,7 @@
 		<item>i777</item>
 	</string-array>
 
-	<string name="official_version_tag">NIGHTLY</string>
+	<string name="official_version_tag">Unofficial</string>
 	<string name="weekly_version_tag">WEEKLY</string>
 	<string name="security_version_tag">SECURITY_RELEASE</string>
 

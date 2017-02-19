@@ -5,7 +5,7 @@
 	<item name="debug_output" type="bool">true</item>
 
 	<!-- Property to read for ROM version -->
-	<string name="property_version">ro.cm.version</string>
+	<string name="property_version">ro.rr.version</string>
 
 	<!-- Property to read for device identifier -->
 	<string name="property_device">ro.product.name</string>
